@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:orientation="vertical"
-        android:background="#ff0000"    >                             git
+        android:background="#ff0000"    >
         <ImageView
             android:id="@+id/webview_back"
             android:layout_width="40dp"
