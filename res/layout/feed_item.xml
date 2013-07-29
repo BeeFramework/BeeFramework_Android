@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:id="@+id/user_header">
+        <com.BeeFramework.view.RoundedWebImageView android:layout_width="50dp"
+                                                           android:layout_height="50dp"
+                                                           android:id="@+id/user_avatar"
+                                                           android:layout_margin="10dp"
+                                                           android:src="@drawable/default_user_icon"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/user_name"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:layout_gravity="center_vertical"
+                  android:text="howie"
+                  android:textColor="#333333"
+                  android:textSize="14dp"/>
+    </LinearLayout>
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/feed_content"
+              android:layout_below="@+id/user_header"
+              android:text=""
+              android:layout_margin="10dp"
+              android:textSize="12dp"
+              android:textColor="#666666"/>
+    <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/photo_layout"
+            android:background="@drawable/body_cont_bg"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_below="@+id/feed_content">
+            <com.BeeFramework.view.WebImageView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:id="@+id/feed_photo"
+                    android:layout_below="@+id/feed_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/default_image"
+                    android:scaleType="centerCrop"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"/>
+    </LinearLayout>
+    <View android:layout_height="10dp"
+          android:layout_width="match_parent"
+          android:visibility="invisible"
+          android:layout_below="@+id/photo_layout"/>
+
+</RelativeLayout>

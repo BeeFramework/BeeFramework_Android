@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="拉取数据"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="HomeActivity" 
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+</LinearLayout>

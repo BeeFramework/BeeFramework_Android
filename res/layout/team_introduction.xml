@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Thanks To" android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:textColor="#000000" android:textStyle="bold" android:layout_marginTop="10dp"/>
+        <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/geek_zoo_layout"
+                android:orientation="vertical"
+                android:background="@drawable/body_cont_bg"
+                android:layout_margin="10dp">
+            <ImageView android:layout_height="54dp"
+                    android:layout_width="112dp"
+                    android:src="@drawable/geek_zoo"
+                    android:layout_gravity="center_horizontal"/>
+            <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="They provide holistic solutions that include user interface, information architecture, logic flow, user experience, visual effects, back/front end coding."
+                    android:textColor="#333333" android:textSize="14dp"/>
+
+            <LinearLayout android:layout_height="30dp"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/btn_red" android:layout_margin="5dp">
+                <TextView android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="WebSite" android:layout_gravity="center" android:gravity="center"
+                        android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView android:layout_height="22dp"
+                  android:layout_width="match_parent"
+                  android:text="Developers" android:layout_marginLeft="10dp"
+                  android:textSize="18dp"
+                  android:textColor="#000000" android:textStyle="bold" android:layout_marginTop="5dp"
+                  android:layout_marginBottom="5dp"/>
+
+        <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/body_cont_bg" android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp">
+            <LinearLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:orientation="horizontal"
+                    android:gravity="left" android:layout_margin="10dp">
+               <ImageView android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:src="@drawable/avatar_howie"/>
+                <TextView android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Howie" android:layout_gravity="center_vertical" android:textColor="#000000"
+                        android:textStyle="bold" android:layout_marginLeft="10dp"/>
+                </LinearLayout>
+            <TextView android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Android and IOS developer,Try best to make coding simple and easy."
+                    android:textSize="12dp" android:textColor="#666666" android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+                      android:layout_width="match_parent"
+                      android:layout_gravity="center_horizontal"
+                      android:orientation="vertical"
+                      android:background="@drawable/body_cont_bg" android:gravity="left"
+                      android:layout_margin="10dp">
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:orientation="horizontal"
+                          android:gravity="left" android:layout_margin="10dp">
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:src="@drawable/avatar_houxin"/>
+                <TextView android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                          android:text="Houxin" android:layout_gravity="center_vertical" android:textColor="#000000"
+                          android:textStyle="bold" android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+            <TextView android:layout_height="wrap_content"
+                      android:layout_width="match_parent"
+                      android:text="Master Android UI Framework."
+                      android:textSize="12dp" android:textColor="#666666" android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+                      android:layout_width="match_parent"
+                      android:layout_gravity="center_horizontal"
+                      android:orientation="vertical"
+                      android:background="@drawable/body_cont_bg" android:gravity="left" android:layout_margin="10dp">
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" android:orientation="horizontal"
+                          android:gravity="left" android:layout_margin="10dp">
+                <ImageView android:layout_width="80dp"
+                           android:layout_height="80dp"
+                           android:src="@drawable/avatar_laoguo"/>
+                <TextView android:layout_height="wrap_content"
+                          android:layout_width="wrap_content"
+                          android:text="Old Guo" android:layout_gravity="center_vertical" android:textColor="#000000"
+                          android:textStyle="bold" android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+            <TextView android:layout_height="wrap_content"
+                      android:layout_width="match_parent"
+                      android:text="Creator of BeeFramework ."
+                      android:textSize="12dp" android:textColor="#666666"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+ </ScrollView>

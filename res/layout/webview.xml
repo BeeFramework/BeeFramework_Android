@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="vertical"
+        android:background="#ff0000"    >                             git
+        <ImageView
+            android:id="@+id/webview_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp"
+            android:src="@drawable/back_icon" />
+        <TextView android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/title_text"
+                android:textSize="24dp"
+                android:textColor="#FFFFFF" android:text="dddd" android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="center" android:gravity="center" android:textStyle="bold"/>
+
+    </FrameLayout>
+
+    <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/webview_webView"/>
+    
+    <include layout="@layout/web_tools"/>
+
+</LinearLayout>
