@@ -47,10 +47,10 @@ BeeFramework android版主要为android开发人员提供一个android app的MVC
 ###开启Crash log
 
 	String path = Environment.getExternalStorageDirectory().getAbsolutePath() + AppConst.LOG_DIR_PATH;
-        File storePath = new File(path);
-        storePath.mkdirs();
-        Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
-                path, null));
+    File storePath = new File(path);
+    storePath.mkdirs();
+    Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
+            path, null));
                 
 ###限定网络请求速率
 
