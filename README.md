@@ -5,7 +5,8 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 
 *	查看网络数据请求历史
 *	Crash Log列表
-*	WIFI环境下模拟2G\3G网络等功能
+*	真机WIFI环境下模拟2G\3G网络
+*	查看APP性能(内存占用，CPU占用等)
 
 
 ##快速开始
@@ -52,6 +53,8 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 
 + [https://github.com/houxin](https://github.com/houxin)
 + [houxin@geek-zoo.com](houxin@geek-zoo.com)
+
+切磋请移步QQ群:330271021
 
 ## Copyright and license
 <br/>
