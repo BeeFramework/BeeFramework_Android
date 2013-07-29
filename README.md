@@ -7,6 +7,8 @@ BeeFramework android版主要为android开发人员提供一个android app的MVC
 ###app内调试
 ####协议拉取历史查看
 通过扩展Androidquery类，添加调试模式下记录协议的发送和拉取，协议的发送继承BeeQuery后，即可以在小虫子中查看协议的拉取历史
+
+
 ![Mou icon](http://wal8.com/51506684)
 
 ###Activity周期
