@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Beeframework android by BeeFramework</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Beeframework android</h1>
+          <h2>极简化的Android App开发框架和App内调试工具</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/BeeFramework/BeeFramework_Android/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/BeeFramework/BeeFramework_Android/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/BeeFramework/BeeFramework_Android" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a name="beeframework-01" class="anchor" href="#beeframework-01"><span class="octicon octicon-link"></span></a>BeeFramework 0.1</h1>
+
+<h2>
+<a name="beeframework%E6%98%AF%E4%BB%80%E4%B9%88" class="anchor" href="#beeframework%E6%98%AF%E4%BB%80%E4%B9%88"><span class="octicon octicon-link"></span></a>BeeFramework是什么</h2>
+
+<p>BeeFramework Android版主要为Android初级开发人员提供一个基于MVC开发模式的APP DEMO,并提供一套APP内调试工具,包括</p>
+
+<ul>
+<li>  查看网络数据请求历史</li>
+<li>  Crash Log列表</li>
+<li>  真机WIFI环境下模拟2G\3G网络</li>
+<li>  查看APP性能(内存占用，CPU占用等)</li>
+</ul><h2>
+<a name="%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B" class="anchor" href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B"><span class="octicon octicon-link"></span></a>快速开始</h2>
+
+<h3>
+<a name="%E5%BC%80%E5%90%AF%E8%B0%83%E8%AF%95%E6%A8%A1%E5%BC%8F" class="anchor" href="#%E5%BC%80%E5%90%AF%E8%B0%83%E8%AF%95%E6%A8%A1%E5%BC%8F"><span class="octicon octicon-link"></span></a>开启调试模式</h3>
+
+<p>需要Application继承自BeeFrameworkApp,在MainActivity按返回键时，调用</p>
+
+<pre><code>BeeFrameworkApp.getInstance().showBug(this);
+</code></pre>
+
+<h3>
+<a name="%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE%E8%AF%B7%E6%B1%82" class="anchor" href="#%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE%E8%AF%B7%E6%B1%82"><span class="octicon octicon-link"></span></a>网络数据请求</h3>
+
+<pre><code>BeeCallback&lt;JSONObject&gt; cb = new BeeCallback&lt;JSONObject&gt;()
+{
+    public void callback(String url, JSONObject jo, AjaxStatus status)
+         {
+            //TODO
+         }
+};    
+cb.url(url).type(JSONObject.class).method(Constants.METHOD_GET);
+com.BeeFramework.model.BeeQuery aq = new BeeQuery(context);
+aq.ajax(cb);
+</code></pre>
+
+<h3>
+<a name="%E5%BC%80%E5%90%AFcrash-log" class="anchor" href="#%E5%BC%80%E5%90%AFcrash-log"><span class="octicon octicon-link"></span></a>开启Crash Log</h3>
+
+<pre><code>String path = Environment.getExternalStorageDirectory().getAbsolutePath() + AppConst.LOG_DIR_PATH;
+File storePath = new File(path);
+storePath.mkdirs();
+Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
+       path, null));
+</code></pre>
+
+<h3>
+<a name="%E6%A8%A1%E6%8B%9F2g3g%E7%BD%91%E7%BB%9C" class="anchor" href="#%E6%A8%A1%E6%8B%9F2g3g%E7%BD%91%E7%BB%9C"><span class="octicon octicon-link"></span></a>模拟2G/3G网络</h3>
+
+<pre><code>BeeQuery.setForceThrottleBandwidth(true);
+BeeQuery.setMaxBandwidthPerSecond(1000);//限定1000Bytes/s                
+</code></pre>
+
+<p><strong><a href="https://play.google.com/store/apps/details?id=com.BeeFramework.example">下载APK安装包，开始体验</a></strong></p>
+
+<h2>
+<a name="%E4%BD%9C%E8%80%85" class="anchor" href="#%E4%BD%9C%E8%80%85"><span class="octicon octicon-link"></span></a>作者</h2>
+
+<p><strong>Howiezhang</strong></p>
+
+<ul>
+<li><a href="https://github.com/howiezhang">https://github.com/howiezhang</a></li>
+<li><a href="zhanghao@geek-zoo.com">zhanghao@geek-zoo.com</a></li>
+</ul><p><strong>HouXin</strong></p>
+
+<ul>
+<li><a href="https://github.com/houxin">https://github.com/houxin</a></li>
+<li><a href="houxin@geek-zoo.com">houxin@geek-zoo.com</a></li>
+</ul><p><strong>切磋请移步QQ群:330271021</strong></p>
+
+<h2>
+<a name="copyright-and-license" class="anchor" href="#copyright-and-license"><span class="octicon octicon-link"></span></a>Copyright and license</h2>
+
+<p><br></p>
+
+<p>Copyright 2013 ~ 2014, <a href="http://www.geek-zoo.com">Geek-Zoo Studio, Inc.</a> and <a href="http://www.insthub.com">INSTHUB Beijing HQ</a></p>
+
+<pre><code> ______    ______    ______
+/\  __ \  /\  ___\  /\  ___\
+\ \  __&lt;  \ \  __\_ \ \  __\_
+ \ \_____\ \ \_____\ \ \_____\
+  \/_____/  \/_____/  \/_____/
+
+
+Copyright (c) 2013-2014, {Bee} open source community
+http://www.bee-framework.com
+
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+</code></pre>
+        </section>
+
+        <footer>
+          Beeframework android is maintained by <a href="https://github.com/BeeFramework">BeeFramework</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
