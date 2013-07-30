@@ -56,6 +56,8 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 
 **切磋请移步QQ群:330271021**
 
+<a target="_blank" href="http://wp.qq.com/wpa/qunwpa?idkey=8f65d11442e4b51eb0d4da39e0be39ef986395f3ca184d593da351f119eb9222"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="push" title="push"></a>
+
 ## Copyright and license
 <br/>
 
