@@ -13,6 +13,8 @@ import com.BeeFramework.AppConst;
 import com.BeeFramework.example.R;
 import com.BeeFramework.activity.MainActivity;
 import com.BeeFramework.model.BusinessResponse;
+import com.sina.weibo.sdk.WeiboSDK;
+import com.sina.weibo.sdk.api.IWeiboAPI;
 import com.weibo.sdk.android.*;
 import com.weibo.sdk.android.sso.SsoHandler;
 import org.json.JSONException;
@@ -53,7 +55,7 @@ import java.text.SimpleDateFormat;
 public class TimelineActivity extends MainActivity  implements BusinessResponse, IXListViewListener
 {
     TimelineModel       dataModel;
-    TimelineAdapter     topicSearchAdapter;
+    TimelineAdapter     listAdapter;
     XListView           feedListView;
     Weibo               mWeibo;
     SharedPreferences   shared;
@@ -82,6 +84,8 @@ public class TimelineActivity extends MainActivity  implements BusinessResponse,
         editor = shared.edit();
 
         mWeibo =  Weibo.getInstance(AppConst.SINA_KEY,"http://open.weibo.com/apps/"+AppConst.SINA_KEY+"/info/advanced",SCOPE);
+        IWeiboAPI weiboAPI = WeiboSDK.createWeiboAPI(this,AppConst.SINA_KEY);
+
         mSsoHandler = new SsoHandler(this, mWeibo);
         String pkName = this.getPackageName();
         mSsoHandler.authorize(new AuthDialogListener(),pkName);
@@ -93,19 +97,27 @@ public class TimelineActivity extends MainActivity  implements BusinessResponse,
         feedListView.setPullLoadEnable(true);
         feedListView.setRefreshTime();
         feedListView.setXListViewListener(this, 1);
-        
-        topicSearchAdapter = new TimelineAdapter(this,dataModel.searchResult);
-        feedListView.setAdapter(topicSearchAdapter);
+
+        listAdapter = new TimelineAdapter(this,dataModel.searchResult);
+        feedListView.setAdapter(listAdapter);
         
     }
 
     @Override
     public void OnMessageResponse(String url, JSONObject jo, AjaxStatus status) throws JSONException
     {
-    	feedListView.setRefreshTime();
-    	feedListView.stopLoadMore();
-    	feedListView.stopRefresh();
-        topicSearchAdapter.notifyDataSetChanged();
+        if (url.startsWith("https://api.weibo.com/oauth2/access_token"))
+        {
+            onRefresh(0);
+        }
+        else
+        {
+            feedListView.setRefreshTime();
+            feedListView.stopLoadMore();
+            feedListView.stopRefresh();
+            listAdapter.notifyDataSetChanged();
+        }
+
     }
 
     @Override
@@ -142,8 +154,9 @@ public class TimelineActivity extends MainActivity  implements BusinessResponse,
 
             String code = values.getString("code");
             if(code != null){
-                editor.putString(ACCESS_TOKEN,code);
-                editor.commit();
+//                editor.putString(ACCESS_TOKEN,code);
+//                editor.commit();
+                dataModel.getAccessToken(code);
                 return;
             }
             String token = values.getString("access_token");

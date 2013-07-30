@@ -57,6 +57,11 @@ public class BeeQuery<T> extends AQuery {
 		return (BeeQuery)super.ajax(callback);
 	}
 
+    public <K> AQuery ajaxAbsolute(AjaxCallback<K> callback){
+
+        return (BeeQuery)super.ajax(callback);
+    }
+
 	public <K> AQuery ajax(String url, Map<String, ?> params, Class<K> type, BeeCallback<K> callback){
 						
 		callback.type(type).url(url).params(params);
