@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:id="@+id/shot_image"
+            android:src="@drawable/default_image"/>
+    <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/shot_title" android:textSize="12dp"/>
+    <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/bottom_layout"
+            android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center" android:gravity="center">
+             <ImageView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/heart"/>
+            <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/like_count"
+                    android:text="0" android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_gravity="center" android:gravity="center">
+            <ImageView android:layout_height="wrap_content"
+                       android:layout_width="wrap_content"
+                       android:src="@drawable/comment"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/comment_count"
+                      android:text="0" android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

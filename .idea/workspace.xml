@@ -27,7 +27,48 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" name="Default" comment="" />
+    <list default="true" id="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_8_6_with_sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/protocol/ApiInterface.java" afterPath="$PROJECT_DIR$/src/com/example/protocol/ApiInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeCallback.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeeFrameworkExample.iml" afterPath="$PROJECT_DIR$/BeeFrameworkExample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeQuery.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeQuery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/viewpagerindicator/CirclePageIndicator.java" afterPath="$PROJECT_DIR$/src/com/external/viewpagerindicator/CirclePageIndicator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/DebugTabActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/DebugTabActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/activity/HomeTabActivity.java" afterPath="$PROJECT_DIR$/src/com/example/activity/HomeTabActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/view/MyDialog.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/view/MyDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/view/MyProgressDialog.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/view/MyProgressDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/protocol/STATUSES.java" afterPath="$PROJECT_DIR$/src/com/example/protocol/STATUSES.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/Utils/TimeUtil.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/Utils/TimeUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java" afterPath="$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/model/TimelineModel.java" afterPath="$PROJECT_DIR$/src/com/example/model/TimelineModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/maxwin/view/XListView.java" afterPath="$PROJECT_DIR$/src/com/external/maxwin/view/XListView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewFooter.java" afterPath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewFooter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewHeader.java" afterPath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/debug_home_tab.xml" afterPath="$PROJECT_DIR$/res/layout/debug_home_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/debug_message_detail.xml" afterPath="$PROJECT_DIR$/res/layout/debug_message_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/debug_message_item.xml" afterPath="$PROJECT_DIR$/res/layout/debug_message_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/dialog_layout.xml" afterPath="$PROJECT_DIR$/res/layout/dialog_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/home_tab.xml" afterPath="$PROJECT_DIR$/res/layout/home_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/navigationbar.xml" afterPath="$PROJECT_DIR$/res/layout/navigationbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/progress_bg.xml" afterPath="$PROJECT_DIR$/res/drawable/progress_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/progress_view.xml" afterPath="$PROJECT_DIR$/res/layout/progress_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/splash.xml" afterPath="$PROJECT_DIR$/res/layout/splash.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/splash_background.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/splash_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/tab_select.xml" afterPath="$PROJECT_DIR$/res/drawable/tab_select.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/timeline_activity.xml" afterPath="$PROJECT_DIR$/res/layout/timeline_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/webview.xml" afterPath="$PROJECT_DIR$/res/layout/webview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/xlistview_footer.xml" afterPath="$PROJECT_DIR$/res/layout/xlistview_footer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/xlistview_header.xml" afterPath="$PROJECT_DIR$/res/layout/xlistview_header.xml" />
+    </list>
     <ignored path="BeeFrameworkExample.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374823098689" ignored="false" />
@@ -35,7 +76,6 @@
     <file path="/a.dummy" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374944717636" ignored="false" />
     <file path="/BaseActivity.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374821528227" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374820734744" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374824972891" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/BeeFramework/BuildConfig.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374821113352" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/BeeFramework/R.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374821107359" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/BeeFramework/Manifest.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374821107359" ignored="false" />
@@ -78,7 +118,7 @@
     <file path="/AQUtility.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374831688387" ignored="false" />
     <file path="/TimelineModel.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374859075524" ignored="false" />
     <file path="/TeamIntroduction.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375089761678" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375092460461" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1358136464612" ignored="false" />
     <file path="/team_introduction.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375089386936" ignored="false" />
     <file path="/home_tab.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375086039336" ignored="false" />
     <file path="/webview.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375092991720" ignored="false" />
@@ -97,6 +137,38 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/BeeFramework/view/WebImageManagerRetriever.java" line="24" class="WebImageManagerRetriever.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/BeeFramework/activity/BaseActivity.java" line="33" class="BaseActivity.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -133,38 +205,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/BeeFramework/view/WebImageManagerRetriever.java" line="24" class="WebImageManagerRetriever.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/BeeFramework/activity/BaseActivity.java" line="33" class="BaseActivity.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -177,7 +217,7 @@
       <file leaf-file-name="BeeFrameworkApp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="33" selection-start="3654" selection-end="3654" vertical-scroll-proportion="0.0">
+            <state line="98" column="33" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,7 +226,7 @@
       <file leaf-file-name="TimelineModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/model/TimelineModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="2209" selection-end="2209" vertical-scroll-proportion="0.0">
+            <state line="59" column="0" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,7 +235,7 @@
       <file leaf-file-name="TimelineActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="17" selection-start="5683" selection-end="5683" vertical-scroll-proportion="0.0">
+            <state line="171" column="17" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,16 +253,16 @@
       <file leaf-file-name="WebViewActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="0" selection-start="3077" selection-end="3077" vertical-scroll-proportion="0.0">
+            <state line="86" column="0" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webview.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="webview.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/webview.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="73" selection-start="474" selection-end="474" vertical-scroll-proportion="0.06939502">
+            <state line="9" column="94" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -231,10 +271,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ProfileActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/activity/ProfileActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="248" column="63" selection-start="8936" selection-end="8936" vertical-scroll-proportion="0.37528604">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="16" selection-start="3810" selection-end="3810" vertical-scroll-proportion="0.0">
+            <state line="78" column="16" selection-start="3893" selection-end="3893" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -295,8 +346,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="683" />
+    <option name="x" value="11" />
+    <option name="y" value="37" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -327,7 +378,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,177 +392,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="external" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BeeFrameworkExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="BeeFramework_Android_github" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16503906" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="$PROJECT_DIR$/BeeFrameworkExample.apk" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/BeeFrameworkExample.apk" />
     <property name="ExportedModule" value="BeeFrameworkExample" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/universal-image-loader-1.8.6-with-sources.jar!/" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="2.7QVGA" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="320480" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -521,7 +422,7 @@
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.7027348" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT22HW100162" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -560,6 +461,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -586,19 +500,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -706,7 +607,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="683" width="1260" height="760" extended-state="0" />
+    <frame x="11" y="37" width="1260" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -715,12 +616,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2671875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2661654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.653125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -728,7 +630,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3679868" sideWeight="0.7328125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2809524" sideWeight="0.73383456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15403624" sideWeight="0.7328125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -736,7 +638,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24794069" sideWeight="0.7328125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41121495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -805,11 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/model/BeeQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="223" selection-end="223" vertical-scroll-proportion="0.18072289" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/model/BaseModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="39" selection-start="1642" selection-end="1650" vertical-scroll-proportion="0.39041096" />
@@ -825,18 +721,9 @@
         <state line="116" column="50" selection-start="4438" selection-end="4438" vertical-scroll-proportion="3.390411" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="33" selection-start="3654" selection-end="3654" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/HomeTabActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="82" selection-start="793" selection-end="793" vertical-scroll-proportion="-0.80987203">
-          <folding />
-        </state>
+        <state line="24" column="82" selection-start="793" selection-end="793" vertical-scroll-proportion="-0.80987203" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/feed_item.xml">
@@ -849,9 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/home_tab.xml">
       <provider editor-type-id="text-editor">
-        <state line="68" column="16" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="68" column="16" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0" />
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -859,7 +744,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/model/TimelineModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2209" selection-end="2209" vertical-scroll-proportion="0.0">
+        <state line="59" column="0" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -881,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="17" selection-start="5683" selection-end="5683" vertical-scroll-proportion="0.0">
+        <state line="171" column="17" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -895,26 +780,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="16" selection-start="3810" selection-end="3810" vertical-scroll-proportion="0.0">
+        <state line="78" column="16" selection-start="3893" selection-end="3893" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="3077" selection-end="3077" vertical-scroll-proportion="0.0">
+        <state line="86" column="0" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/webview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="73" selection-start="474" selection-end="474" vertical-scroll-proportion="0.06939502">
+        <state line="9" column="94" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="33" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/activity/ProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="248" column="63" selection-start="8936" selection-end="8936" vertical-scroll-proportion="0.37528604">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
@@ -980,11 +881,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Android|BeeFrameworkExample</last-edited>
+          <last-edited>BeeFrameworkExample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.118906066" />
+                <option value="0.7027348" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1004,7 +906,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>weiboSDK2.1_130712</last-edited>
+          <last-edited>universal-image-loader-1.8.6-with-sources</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

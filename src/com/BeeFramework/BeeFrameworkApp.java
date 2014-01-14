@@ -31,8 +31,11 @@ package com.BeeFramework;
  *	IN THE SOFTWARE.
  */
 
+import java.io.File;
+
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.PixelFormat;
 import android.os.Environment;
 import android.os.Handler;
@@ -44,13 +47,20 @@ import android.view.View.OnLongClickListener;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
 import android.widget.ImageView;
-import com.external.activeandroid.app.Application;
+
 import com.BeeFramework.Utils.CustomExceptionHandler;
 import com.BeeFramework.activity.DebugCancelDialogActivity;
 import com.BeeFramework.activity.DebugTabActivity;
 import com.BeeFramework.example.R;
-
-import java.io.File;
+import com.BeeFramework.view.BeeInjector;
+import com.external.activeandroid.app.Application;
+import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
+import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 
 public class BeeFrameworkApp extends Application implements OnClickListener{
     private static BeeFrameworkApp instance;
@@ -61,6 +71,11 @@ public class BeeFrameworkApp extends Application implements OnClickListener{
     private boolean flag = true;
     
     public Handler messageHandler;
+    
+    private BeeInjector mInjector;
+    
+    public static DisplayImageOptions options;		// DisplayImageOptions是用于设置图片显示的类
+	public static DisplayImageOptions options_head;		// DisplayImageOptions是用于设置图片显示的类
 
     public static BeeFrameworkApp getInstance()
     {
@@ -78,8 +93,34 @@ public class BeeFrameworkApp extends Application implements OnClickListener{
         String path = Environment.getExternalStorageDirectory().getAbsolutePath() + AppConst.LOG_DIR_PATH;
         File storePath = new File(path);
         storePath.mkdirs();
-        Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
-                path, null));
+        Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(path, null));
+        
+        Intent intent = new Intent();
+        intent.setAction("com.BeeFramework.NetworkState.Service");
+        startService(intent);
+        
+        initImageLoader(this);
+        
+        options = new DisplayImageOptions.Builder()
+			.showStubImage(R.drawable.default_image)			// 设置图片下载期间显示的图片
+			.showImageForEmptyUri(R.drawable.default_image)	// 设置图片Uri为空或是错误的时候显示的图片
+			.showImageOnFail(R.drawable.default_image)		// 设置图片加载或解码过程中发生错误显示的图片	
+			.cacheInMemory(true)						// 设置下载的图片是否缓存在内存中
+			.cacheOnDisc(true)							// 设置下载的图片是否缓存在SD卡中
+			//.displayer(new RoundedBitmapDisplayer(20))	// 设置成圆角图片
+			.bitmapConfig(Bitmap.Config.RGB_565)
+			.build();
+    
+        options_head = new DisplayImageOptions.Builder()
+			.showStubImage(R.drawable.default_image)			// 设置图片下载期间显示的图片
+			.showImageForEmptyUri(R.drawable.default_image)	// 设置图片Uri为空或是错误的时候显示的图片
+			.showImageOnFail(R.drawable.default_image)		// 设置图片加载或解码过程中发生错误显示的图片	
+			.cacheInMemory(true)						// 设置下载的图片是否缓存在内存中
+			.cacheOnDisc(true)							// 设置下载的图片是否缓存在SD卡中
+			.displayer(new RoundedBitmapDisplayer(10))	// 设置成圆角图片
+			.bitmapConfig(Bitmap.Config.RGB_565)
+			.build();	
+        
     }
 
     public void showBug(final Context context)
@@ -140,5 +181,26 @@ public class BeeFrameworkApp extends Application implements OnClickListener{
     	}
         flag = true;
     }
+    
+    public BeeInjector getInjector() {
+		if (mInjector == null) {
+			mInjector = BeeInjector.getInstance();
+		}
+		return mInjector;
+	}
+    
+    public static void initImageLoader(Context context) {
+		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(context)
+				.threadPriority(Thread.NORM_PRIORITY - 2)
+				.threadPoolSize(3)
+				.denyCacheImageMultipleSizesInMemory()
+				.discCacheFileNameGenerator(new Md5FileNameGenerator())
+				.tasksProcessingOrder(QueueProcessingType.LIFO)
+				//.writeDebugLogs() // Remove for release app
+				.memoryCache(new WeakMemoryCache())
+				.build();
+		// Initialize ImageLoader with configuration.
+		ImageLoader.getInstance().init(config);
+	}
     
 }

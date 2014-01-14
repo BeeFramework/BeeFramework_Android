@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 背景图 -->
+	<item android:id="@android:id/background"
+		  android:drawable="@drawable/seekbar_back" />
+	<!--全部能量图  -->
+	<!-- <item android:id="@+android:id/SecondaryProgress"
+		  android:drawable="@drawable/back" /> -->
+	<!-- 进和能量图 -->
+	<item android:id="@android:id/progress" 
+	      android:drawable="@drawable/seekbar_fill" />
+</layer-list>

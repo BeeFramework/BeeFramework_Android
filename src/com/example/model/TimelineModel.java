@@ -16,8 +16,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import com.BeeFramework.model.BeeQuery;
-
-
 /*
  *	 ______    ______    ______
  *	/\  __ \  /\  ___\  /\  ___\

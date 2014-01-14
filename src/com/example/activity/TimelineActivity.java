@@ -2,8 +2,14 @@ package com.example.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.util.TypedValue;
+import android.widget.ImageView;
 import android.widget.Toast;
+import com.BeeFramework.theme.ResourcesFactory;
+import com.BeeFramework.theme.ThemeManager;
 import com.example.adapter.TimelineAdapter;
 import com.example.model.TimelineModel;
 import com.external.androidquery.callback.AjaxStatus;
@@ -20,6 +26,7 @@ import com.weibo.sdk.android.sso.SsoHandler;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 
 /*
@@ -100,6 +107,12 @@ public class TimelineActivity extends MainActivity  implements BusinessResponse,
 
         listAdapter = new TimelineAdapter(this,dataModel.searchResult);
         feedListView.setAdapter(listAdapter);
+
+
+        Drawable drawable = ResourcesFactory.getDrawable(getResources(), R.drawable.splash_background);
+        ImageView header = (ImageView)findViewById(R.id.listImage);
+        header.setImageDrawable(drawable);
+        header.setBackgroundColor(Color.RED);
         
     }
 
@@ -189,7 +202,7 @@ public class TimelineActivity extends MainActivity  implements BusinessResponse,
                     .show();
         }
 
-    }
+    } 
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

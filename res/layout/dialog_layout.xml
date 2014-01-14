@@ -19,12 +19,12 @@
             android:gravity="center_vertical"
             android:text="title"
             android:textColor="#000000"
-            android:textSize="22dp" />
+            android:textSize="20dp" />
 
         <View
             android:layout_width="fill_parent"
-            android:layout_height="1.5dp"
-            android:background="#4c000000" />
+            android:layout_height="0.1dp"
+            android:background="#c4c4c4c4" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -40,13 +40,13 @@
                 android:layout_margin="15dp"
                 android:text="message"
                 android:textColor="#000000"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
         </LinearLayout>
 
         <View
             android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:background="#777777" />
+            android:layout_height="0.1dp"
+            android:background="#c4c4c4c4" />
 
         <LinearLayout
             android:id="@+id/update_cancel"
@@ -65,12 +65,12 @@
                 android:gravity="center"
                 android:text="确定"
                 android:textColor="#000000"
-                android:textSize="18dp" />
+                android:textSize="16dp" />
 
             <View
                 android:layout_width="0.1dp"
                 android:layout_height="match_parent"
-                android:background="#777777" />
+                android:background="#c4c4c4c4" />
 
             <TextView
                 android:id="@+id/no"
@@ -81,7 +81,7 @@
                 android:gravity="center"
                 android:text="取消"
                 android:textColor="#000000"
-                android:textSize="18dp" />
+                android:textSize="16dp" />
         </LinearLayout>
     </LinearLayout>
 

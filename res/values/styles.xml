@@ -27,4 +27,9 @@
         <item name="android:backgroundDimAmount">0.6</item>
  	</style>
  	
+    <style name="customTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:splitMotionEvents">false</item>
+ 	</style>
+    
+ 	
 </resources>

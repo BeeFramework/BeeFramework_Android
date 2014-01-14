@@ -7,7 +7,7 @@
     <RelativeLayout
         android:id="@+id/xlistview_header_content"
         android:layout_width="fill_parent"
-        android:layout_height="110dp" >
+        android:layout_height="60dp" >
 
         <LinearLayout
             android:id="@+id/xlistview_header_text"
@@ -20,7 +20,8 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/xlistview_arrow" />
+                android:background="@drawable/xlistview_arrow"
+                android:visibility="gone" />
 
             <TextView
                 android:id="@+id/xlistview_header_hint_textview"
@@ -52,18 +53,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@id/xlistview_header_text"
-            android:layout_marginTop="65dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="-35dp"
             android:src="@drawable/xlistview_arrow" />
 
-        <ProgressBar
+        <ImageView
             android:id="@+id/xlistview_header_progressbar"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignLeft="@id/xlistview_header_text"
-            android:layout_marginTop="65dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="-40dp"
-            android:visibility="invisible" />
+            android:visibility="invisible" 
+            android:src="@drawable/round_1"/>
     </RelativeLayout>
 
 </LinearLayout>

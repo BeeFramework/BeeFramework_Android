@@ -1,14 +1,6 @@
 package com.BeeFramework.model;
 
-import android.content.Context;
-import android.os.Handler;
-import android.os.Message;
-import com.external.activeandroid.util.Log;
-import com.external.androidquery.callback.AjaxCallback;
-import com.external.androidquery.callback.AjaxStatus;
-import com.external.androidquery.util.AQUtility;
-import org.json.JSONObject;
-
+import java.io.UnsupportedEncodingException;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -16,11 +8,23 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import org.json.JSONObject;
+
+import android.content.Context;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+
+import com.BeeFramework.Utils.JsonFormatTool;
+import com.external.androidquery.callback.AjaxCallback;
+import com.external.androidquery.callback.AjaxStatus;
+import com.external.androidquery.util.AQUtility;
+
 public class BeeCallback<T> extends AjaxCallback<T>
 {
     public String timeStamp;
     public String endTimeStamp;
-    
+
     public String startTime;
     public String message;
     public String requset;
@@ -139,8 +143,8 @@ public class BeeCallback<T> extends AjaxCallback<T>
         }
         timer.cancel();
     }
-
-    public void callback(String url, T object, AjaxStatus status)
+	
+	public void callback(String url, T object, AjaxStatus status)
     {
 
 	}
@@ -174,7 +178,7 @@ public class BeeCallback<T> extends AjaxCallback<T>
             }
         }
 
-        Log.d("THROTTLING","[THROTTLING] ===Used:"+ bandwidthUsedInLastSecond+" bytes of bandwidth in last measurement period===");
+        Log.d("THROTTLING", "[THROTTLING] ===Used:" + bandwidthUsedInLastSecond + " bytes of bandwidth in last measurement period===");
 
         bandwidthUseageTracker.add(Integer.valueOf((int) bandwidthUsedInLastSecond));
         bandwidthMeasurementDate = new Date();
@@ -325,7 +329,8 @@ public class BeeCallback<T> extends AjaxCallback<T>
         if (null != this.params)
         {
             msgDesc += "请求："+this.params.toString()+"\n\n";
-            requset = "请求："+this.params.toString();
+            //requset = "请求："+this.params.toString();
+            requset = "请求：\n"+JsonFormatTool.formatJson(this.params.toString(), "    ");
         }
         else
         {
@@ -335,8 +340,9 @@ public class BeeCallback<T> extends AjaxCallback<T>
 
         if(null != this.result) {
             msgDesc += "响应："+this.getResult().toString()+"\n\n";
+            //response = "响应："+this.getResult().toString()+"\n\n";
             
-            response = "响应："+this.getResult().toString();
+            response = "响应：\n"+"json:"+JsonFormatTool.formatJson(this.getResult().toString(), "    ");
             
             float f = this.getResult().toString().getBytes().length;
             if(this.getResult().toString().getBytes().length > 1024) {
@@ -348,7 +354,23 @@ public class BeeCallback<T> extends AjaxCallback<T>
             	msgDesc += "网络包大小："+this.getResult().toString().getBytes().length+"b";
             	netSize = "网络包大小："+this.getResult().toString().getBytes().length+"b";
             }
-            
+
+        }
+        else
+        {
+            String str = null;
+            try {
+                if (null != this.getStatus().getData())
+                {
+                    str = new String(this.getStatus().getData(), this.getEncoding());
+                }
+
+                msgDesc += "响应："+str+"\n\n";
+                response = "响应："+str;
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+
         }
 
         return msgDesc;

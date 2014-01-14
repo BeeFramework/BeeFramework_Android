@@ -4,11 +4,19 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+    <ImageView android:layout_height="100dp"
+               android:layout_width="100dp"
+               android:id="@+id/listImage" android:visibility="gone"/>
+    <include android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:id="@+id/crashlog_title"
+             layout="@layout/navigationbar"/>
     <com.external.maxwin.view.XListView android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:id="@+id/feed_list"
                                         android:dividerHeight="1dp"
                                         android:divider="#e5e5e5"
                                         android:background="#FFFFFF"/>
+
 
 </LinearLayout>

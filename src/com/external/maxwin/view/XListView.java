@@ -14,7 +14,6 @@ import com.BeeFramework.example.R;
 
 import java.util.Date;
 
-
 public class XListView extends ListView implements OnScrollListener {
 
 	private float mLastY = -1; // save event y
@@ -169,7 +168,6 @@ public class XListView extends ListView implements OnScrollListener {
 			mPullLoading = false;
 			mFooterView.setState(XListViewFooter.STATE_NORMAL);
 		}
-		
 		mFooterView.setEnabled(true);
 	}
 

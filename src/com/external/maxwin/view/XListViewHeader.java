@@ -1,6 +1,7 @@
 package com.external.maxwin.view;
 
 import android.content.Context;
+import android.graphics.drawable.AnimationDrawable;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -16,12 +17,13 @@ import com.BeeFramework.example.R;
 public class XListViewHeader extends LinearLayout {
 	private LinearLayout mContainer;
 	private ImageView mArrowImageView;
-	private ProgressBar mProgressBar;
+	private ImageView mProgressBar;
 	private TextView mHintTextView;
 	private int mState = STATE_NORMAL;
 
 	private Animation mRotateUpAnim;
 	private Animation mRotateDownAnim;
+	private AnimationDrawable animationDrawable = null;
 	
 	private final int ROTATE_ANIM_DURATION = 180;
 	
@@ -54,7 +56,7 @@ public class XListViewHeader extends LinearLayout {
 
 		mArrowImageView = (ImageView)findViewById(R.id.xlistview_header_arrow);
 		mHintTextView = (TextView)findViewById(R.id.xlistview_header_hint_textview);
-		mProgressBar = (ProgressBar)findViewById(R.id.xlistview_header_progressbar);
+		mProgressBar = (ImageView)findViewById(R.id.xlistview_header_progressbar);
 		
 		mRotateUpAnim = new RotateAnimation(0.0f, -180.0f,
 				Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
@@ -66,6 +68,10 @@ public class XListViewHeader extends LinearLayout {
 				0.5f);
 		mRotateDownAnim.setDuration(ROTATE_ANIM_DURATION);
 		mRotateDownAnim.setFillAfter(true);
+		
+		mProgressBar.setImageResource(R.anim.loadmore_animation);
+		animationDrawable = (AnimationDrawable)mProgressBar.getDrawable();
+		animationDrawable.setOneShot(false);
 	}
 
 	public void setState(int state) {
@@ -75,9 +81,15 @@ public class XListViewHeader extends LinearLayout {
 			mArrowImageView.clearAnimation();
 			mArrowImageView.setVisibility(View.INVISIBLE);
 			mProgressBar.setVisibility(View.VISIBLE);
+			if(animationDrawable != null) {
+				animationDrawable.start();
+			}
 		} else {	// 显示箭头图片
 			mArrowImageView.setVisibility(View.VISIBLE);
 			mProgressBar.setVisibility(View.INVISIBLE);
+			if(animationDrawable != null) {
+				animationDrawable.stop();
+			}
 		}
 		
 		switch(state){

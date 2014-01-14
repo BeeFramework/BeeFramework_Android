@@ -10,12 +10,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:padding="10dp" >
-        <ProgressBar
+        <ImageView
             android:id="@+id/xlistview_footer_progressbar"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_centerInParent="true"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            android:src="@drawable/round_1" />
 
         <TextView
             android:id="@+id/xlistview_footer_hint_textview"

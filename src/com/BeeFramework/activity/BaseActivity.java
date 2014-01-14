@@ -37,9 +37,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+
+import com.BeeFramework.BeeFrameworkApp;
 import com.BeeFramework.model.ActivityManagerModel;
 import com.BeeFramework.model.BusinessMessage;
 import com.BeeFramework.example.R;
+
 import org.json.JSONException;
 
 @SuppressLint("NewApi")
@@ -59,6 +62,18 @@ public class BaseActivity extends Activity implements Handler.Callback
         mHandler = new Handler(this);
         ActivityManagerModel.addLiveActivity(this);
     }
+    
+    @Override
+	public void setContentView(int layoutResID) {
+		// TODO Auto-generated method stub
+		super.setContentView(layoutResID);
+		// 由于view必须在视图记载之后添加注入
+		getTAApplication().getInjector().injectView(this);
+	}
+	
+	public BeeFrameworkApp getTAApplication() {
+		return (BeeFrameworkApp) getApplication();
+	}
 
     @Override
     protected void onStart()

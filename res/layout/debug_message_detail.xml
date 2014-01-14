@@ -15,9 +15,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:gravity="center_vertical"
-            android:minHeight="40dp"
             android:textColor="#000000"
-            android:textSize="16dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:id="@+id/debug_detail_message"
@@ -25,9 +24,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:gravity="center_vertical"
-            android:minHeight="40dp"
             android:textColor="#000000"
-            android:textSize="16dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:id="@+id/debug_detail_request"
@@ -35,9 +33,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:gravity="center_vertical"
-            android:minHeight="40dp"
             android:textColor="#000000"
-            android:textSize="16dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:id="@+id/debug_detail_response"
@@ -46,9 +43,8 @@
             android:layout_margin="5dp"
             android:ellipsize="end"
             android:gravity="center_vertical"
-            android:minHeight="40dp"
             android:textColor="#000000"
-            android:textSize="16dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:id="@+id/debug_detail_netSize"
@@ -56,9 +52,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:gravity="center_vertical"
-            android:minHeight="40dp"
             android:textColor="#000000"
-            android:textSize="16dp" />
+            android:textSize="14dp" />
     </LinearLayout>
 
 </ScrollView>

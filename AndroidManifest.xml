@@ -30,7 +30,7 @@
         android:name="com.BeeFramework.BeeFrameworkApp"
         android:icon="@drawable/beelogo"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        android:theme="@style/customTheme" >
         <activity
             android:name="com.example.activity.TimelineActivity"
             android:label="@string/app_name" >
@@ -51,7 +51,7 @@
         <activity
             android:name="com.BeeFramework.activity.MemoryMessageActivity"
             android:screenOrientation="portrait" />
-         <activity
+        <activity
             android:name="com.BeeFramework.activity.FloatViewSettingActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -61,31 +61,48 @@
             android:name="com.BeeFramework.activity.CrashLogDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-                android:name="com.example.activity.TrendActivity"
-                android:screenOrientation="portrait" />
-
+            android:name="com.example.activity.TrendActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.BeeFramework.activity.DebugCancelDialogActivity"
-            android:screenOrientation="portrait" 
-            android:theme="@style/dialog"/>
-
+            android:screenOrientation="portrait"
+            android:theme="@style/dialog" />
         <activity
-                android:name="com.example.activity.TeamIntroduction"
-                android:screenOrientation="portrait"
-                />
+            android:name="com.example.activity.TeamIntroduction"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.BeeFramework.activity.WebViewActivity"
-                android:screenOrientation="portrait"
-                />
-
-
+            android:name="com.BeeFramework.activity.WebViewActivity"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.example.activity.HomeTabActivity"
-                android:screenOrientation="portrait" >
+            android:name="com.example.activity.FriendsTimelineActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.GalleryImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.HighlightButtonActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.activity.ShotListActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.activity.HomeTabActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.activity.CommentListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.activity.PhotoDetailActivity"
+            android:screenOrientation="portrait" >
         </activity>
 
         <service android:name="com.BeeFramework.service.MemoryService" >
@@ -93,6 +110,29 @@
                 <action android:name="com.BeeFramework.MemoryService" />
             </intent-filter>
         </service>
+        <service android:name="com.BeeFramework.service.NetworkStateService" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.BeeFramework.NetworkState.Service" /> <!-- 在BeeFrameworkApp中启动，action的name自定义，但与启动service的action的name一致 -->
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.example.activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.ShotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.FollowersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.FollowingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.activity.LikeShotListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.activity.ThemeDownloadActivity"
+                  android:screenOrientation="portrait" />
     </application>
 
 </manifest>

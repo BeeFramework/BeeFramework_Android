@@ -26,11 +26,11 @@ public class BeeQuery<T> extends AQuery {
 	{
 		if (ENVIRONMENT_PRODUCTION == BeeQuery.environment()) 
 		{
-			return "https://api.weibo.com/2";
+			return "http://api.dribbble.com";
 		}
 		else 
 		{
-			return "https://api.weibo.com/2";
+			return "http://api.dribbble.com";
 		}
 	}
 	public <K> AQuery ajax(AjaxCallback<K> callback){
@@ -80,7 +80,7 @@ public class BeeQuery<T> extends AQuery {
 	}
 
 
-    private static String getAbsoluteUrl(String relativeUrl) {
+    public static String getAbsoluteUrl(String relativeUrl) {
         return  BeeQuery.serviceUrl() + relativeUrl;
     }
 }

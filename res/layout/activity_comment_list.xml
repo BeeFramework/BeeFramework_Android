@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <include layout="@layout/navigationbar"/>
+    <com.external.maxwin.view.XListView
+            android:id="@+id/shot_detail_comment_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#fafafa"
+            android:divider="@drawable/tablecellline"
+            android:dividerHeight="0.1dp"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="#00000000" >
+    </com.external.maxwin.view.XListView>
+</LinearLayout>

@@ -2,7 +2,9 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android" name="Android">
-      <configuration />
+      <configuration>
+        <option name="UPDATE_PROPERTY_FILES" value="true" />
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="true">
@@ -17,6 +19,7 @@
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
     <orderEntry type="library" exported="" name="pushservice-2.2.1" level="project" />
     <orderEntry type="library" exported="" name="weiboSDK2.1_130712" level="project" />
+    <orderEntry type="library" name="universal-image-loader-1.8.6-with-sources" level="project" />
   </component>
 </module>
 

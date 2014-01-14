@@ -62,13 +62,12 @@ public class WebViewActivity extends Activity{
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.webview);
-        ImageView back = (ImageView) findViewById(R.id.webview_back);
-        final Activity activity = this;
-
-        titleTextView = (TextView)findViewById(R.id.title_text);
+        ImageView back = (ImageView) findViewById(R.id.topview_back);
+        back.setVisibility(View.VISIBLE);
+        
+        titleTextView = (TextView)findViewById(R.id.topview_title);
 
         webView = (WebView)findViewById(R.id.webview_webView);
-        webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient() { //通过webView打开链接，不调用系统浏览器
 
             @Override
@@ -116,7 +115,7 @@ public class WebViewActivity extends Activity{
                 if(webView.canGoBack()) {
                     webView.goBack();
                 } else {
-
+                	finish();
                 }
             }
         });
@@ -129,7 +128,6 @@ public class WebViewActivity extends Activity{
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 webView.goForward();
-
             }
         });
 
@@ -142,7 +140,6 @@ public class WebViewActivity extends Activity{
                 webView.reload();
             }
         });
-
 
     }
 

@@ -22,7 +22,7 @@ public class MyDialog {
 
 		mDialog = new Dialog(context, R.style.dialog);
 		mDialog.setContentView(view);
-		mDialog.setCanceledOnTouchOutside(false);
+		mDialog.setCanceledOnTouchOutside(true);
 		
 		dialog_title = (TextView) view.findViewById(R.id.dialog_title);
 		dialog_message = (TextView) view.findViewById(R.id.dialog_message);

@@ -23,65 +23,84 @@
             android:layout_weight="1" >
         </FrameLayout>
 
-        <RadioGroup
-            android:id="@+id/tab_group"
+        <FrameLayout
             android:layout_width="fill_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal" >
+            android:layout_height="40dp" >
 
-            <RadioButton
-                android:id="@+id/tab_one"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_margin="3dp"
-                android:layout_weight="1"
-                android:background="@drawable/tab_select"
-                android:button="@null"
-                android:checked="true"
-                android:gravity="center"
-                android:text="流行微薄"
-                android:textColor="#ffffff" android:textSize="10dp"/>
+            <RadioGroup
+                android:id="@+id/tab_group"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal" >
 
-            <RadioButton
-                android:id="@+id/tab_two"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_margin="3dp"
-                android:layout_weight="1"
-                android:background="@drawable/tab_select"
-                android:button="@null"
-                android:gravity="center"
-                android:text="流行话题"
-                android:textColor="#ffffff" android:textSize="10dp"/>
+                <RadioButton
+                    android:id="@+id/tab_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tab_select"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="高亮按钮"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
 
-            <RadioButton
-                android:id="@+id/tab_three"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_margin="3dp"
-                android:layout_weight="1"
-                android:background="@drawable/tab_select"
-                android:button="@null"
-                android:gravity="center"
-                android:text="Team"
-                android:textColor="#ffffff"
-                android:textSize="10dp"
-                />
+                <RadioButton
+                    android:id="@+id/tab_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tab_select"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="流行话题"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
 
-            <RadioButton
-                android:id="@+id/tab_four"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_margin="3dp"
-                android:layout_weight="1"
-                android:background="@drawable/tab_select"
-                android:button="@null"
-                android:gravity="center"
-                android:text="demo"
-                android:textColor="#ffffff"
-                android:textSize="10dp"
-                android:visibility="gone"/>
-        </RadioGroup>
+                <RadioButton
+                    android:id="@+id/tab_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tab_select"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="流行微博"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/tab_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tab_select"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="图片浏览"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/tab_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tab_select"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="Team"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/home_tab_image"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="#44000000" />
+        </FrameLayout>
     </LinearLayout>
 
 </TabHost>

@@ -3,10 +3,14 @@ package com.BeeFramework.activity;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.animation.TranslateAnimation;
+import android.widget.FrameLayout.LayoutParams;
+import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+
 import com.BeeFramework.example.R;
 
 /*
@@ -43,6 +47,10 @@ import com.BeeFramework.example.R;
 public class DebugTabActivity extends TabActivity {
 
 	private TabHost tabHost;
+	private ImageView image;
+	private TranslateAnimation mTranslateAnimation;
+	private int width;
+	int start;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -51,6 +59,12 @@ public class DebugTabActivity extends TabActivity {
 		
 		tabHost = getTabHost();
 		
+		width = getWindowManager().getDefaultDisplay().getWidth()/4;
+		
+		image = (ImageView) findViewById(R.id.tab_image);
+		LayoutParams params = (LayoutParams) image.getLayoutParams();
+		params.width = width;
+		image.setLayoutParams(params);	
 		
 		TabSpec spec_tab1 = tabHost.newTabSpec("spec_tab1").setIndicator("spec_tab1")
 				.setContent(new Intent(DebugTabActivity.this,DebugMessageListActivity.class));
@@ -78,15 +92,39 @@ public class DebugTabActivity extends TabActivity {
 				switch(checkedId) {
 				case R.id.tab_one:
 					tabHost.setCurrentTabByTag("spec_tab1");
+					mTranslateAnimation = new TranslateAnimation(start, 0,0, 0);
+					mTranslateAnimation.setDuration(200);
+					mTranslateAnimation.setFillEnabled(true);
+					mTranslateAnimation.setFillAfter(true);
+					image.startAnimation(mTranslateAnimation);
+					start = 0;
 					break;
 				case R.id.tab_two:
 					tabHost.setCurrentTabByTag("spec_tab2");
+					mTranslateAnimation = new TranslateAnimation(start, width,0, 0);
+					mTranslateAnimation.setDuration(200);
+					mTranslateAnimation.setFillEnabled(true);
+					mTranslateAnimation.setFillAfter(true);
+					image.startAnimation(mTranslateAnimation);
+					start = width;
 					break;
 				case R.id.tab_three:
 					tabHost.setCurrentTabByTag("spec_tab3");
+					mTranslateAnimation = new TranslateAnimation(start, width*2,0, 0);
+					mTranslateAnimation.setDuration(200);
+					mTranslateAnimation.setFillEnabled(true);
+					mTranslateAnimation.setFillAfter(true);
+					image.startAnimation(mTranslateAnimation);
+					start = width*2;
 					break;
 				case R.id.tab_four:
 					tabHost.setCurrentTabByTag("spec_tab4");
+					mTranslateAnimation = new TranslateAnimation(start, width*3,0, 0);
+					mTranslateAnimation.setDuration(100);
+					mTranslateAnimation.setFillEnabled(true);
+					mTranslateAnimation.setFillAfter(true);
+					image.startAnimation(mTranslateAnimation);
+					start = width*3;
 					break;
 				
 				}

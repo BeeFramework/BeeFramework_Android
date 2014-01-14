@@ -37,18 +37,23 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.widget.Toast;
 import com.BeeFramework.AppConst;
 import com.BeeFramework.BeeFrameworkApp;
 import com.BeeFramework.Utils.CustomExceptionHandler;
+import com.BeeFramework.example.R;
 import com.BeeFramework.model.BeeQuery;
+import com.BeeFramework.theme.ThemeManager;
 import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.xmlpull.v1.XmlPullParser;
 
 import java.io.File;
+import java.io.IOException;
 
 
 public class MainActivity extends BaseActivity{
@@ -80,6 +85,7 @@ public class MainActivity extends BaseActivity{
         storePath.mkdirs();
         Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
                 path, null));
+
     }
 
     @Override
