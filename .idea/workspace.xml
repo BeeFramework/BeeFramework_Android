@@ -27,9 +27,7 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" name="Default" comment="" />
     <ignored path="BeeFrameworkExample.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374823098689" ignored="false" />
@@ -175,10 +173,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BeeFrameworkApp.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BeeFrameworkApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="33" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.0">
+            <state line="154" column="50" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.31350115">
               <folding />
             </state>
           </provider>
@@ -220,10 +218,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DarkLinearLayout.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DarkLinearLayout.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/view/DarkLinearLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="62" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.6108491">
+            <state line="134" column="62" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConst.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/AppConst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="13" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -284,8 +291,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="37" />
+    <option name="x" value="260" />
+    <option name="y" value="220" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -647,7 +654,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="37" width="1260" height="760" extended-state="0" />
+    <frame x="260" y="220" width="1260" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -656,7 +663,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2661654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2661654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -746,11 +753,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/activity/HomeTabActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="82" selection-start="793" selection-end="793" vertical-scroll-proportion="-0.80987203" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/feed_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="37" selection-start="1266" selection-end="1273" vertical-scroll-proportion="0.6057692" />
@@ -780,13 +782,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="33" selection-start="3808" selection-end="3808" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/ProfileActivity.java">
@@ -859,7 +854,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/view/DarkLinearLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="62" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.6108491">
+        <state line="134" column="62" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/AppConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="50" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.31350115">
           <folding />
         </state>
       </provider>
