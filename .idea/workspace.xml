@@ -28,46 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_8_6_with_sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/protocol/ApiInterface.java" afterPath="$PROJECT_DIR$/src/com/example/protocol/ApiInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeCallback.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeCallback.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BeeFrameworkExample.iml" afterPath="$PROJECT_DIR$/BeeFrameworkExample.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeQuery.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/model/BeeQuery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/viewpagerindicator/CirclePageIndicator.java" afterPath="$PROJECT_DIR$/src/com/external/viewpagerindicator/CirclePageIndicator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/DebugTabActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/DebugTabActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/activity/HomeTabActivity.java" afterPath="$PROJECT_DIR$/src/com/example/activity/HomeTabActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/view/MyDialog.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/view/MyDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/view/MyProgressDialog.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/view/MyProgressDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/protocol/STATUSES.java" afterPath="$PROJECT_DIR$/src/com/example/protocol/STATUSES.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/Utils/TimeUtil.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/Utils/TimeUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java" afterPath="$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/model/TimelineModel.java" afterPath="$PROJECT_DIR$/src/com/example/model/TimelineModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java" afterPath="$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/maxwin/view/XListView.java" afterPath="$PROJECT_DIR$/src/com/external/maxwin/view/XListView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewFooter.java" afterPath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewFooter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewHeader.java" afterPath="$PROJECT_DIR$/src/com/external/maxwin/view/XListViewHeader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/debug_home_tab.xml" afterPath="$PROJECT_DIR$/res/layout/debug_home_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/debug_message_detail.xml" afterPath="$PROJECT_DIR$/res/layout/debug_message_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/debug_message_item.xml" afterPath="$PROJECT_DIR$/res/layout/debug_message_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/dialog_layout.xml" afterPath="$PROJECT_DIR$/res/layout/dialog_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/home_tab.xml" afterPath="$PROJECT_DIR$/res/layout/home_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/navigationbar.xml" afterPath="$PROJECT_DIR$/res/layout/navigationbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/progress_bg.xml" afterPath="$PROJECT_DIR$/res/drawable/progress_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/progress_view.xml" afterPath="$PROJECT_DIR$/res/layout/progress_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/splash.xml" afterPath="$PROJECT_DIR$/res/layout/splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/splash_background.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/splash_background.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/tab_select.xml" afterPath="$PROJECT_DIR$/res/drawable/tab_select.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/timeline_activity.xml" afterPath="$PROJECT_DIR$/res/layout/timeline_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/webview.xml" afterPath="$PROJECT_DIR$/res/layout/webview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/xlistview_footer.xml" afterPath="$PROJECT_DIR$/res/layout/xlistview_footer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/xlistview_header.xml" afterPath="$PROJECT_DIR$/res/layout/xlistview_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="BeeFrameworkExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -232,60 +193,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimelineActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="17" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamIntroduction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/activity/TeamIntroduction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebViewActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="0" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webview.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/webview.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="94" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/activity/ProfileActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="248" column="63" selection-start="8936" selection-end="8936" vertical-scroll-proportion="0.37528604">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="78" column="16" selection-start="3893" selection-end="3893" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="63" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TouchableImageView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/view/TouchableImageView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="13" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DarkLinearLayout.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/view/DarkLinearLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="62" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.6108491">
               <folding />
             </state>
           </provider>
@@ -393,6 +331,108 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BeeFramework_Android_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFrameworkExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFramework_Android_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFrameworkExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFramework_Android_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFrameworkExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFramework_Android_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFrameworkExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFramework_Android_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFrameworkExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BeeFramework_Android_github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,21 +746,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/model/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="39" selection-start="1642" selection-end="1650" vertical-scroll-proportion="0.39041096" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/external/androidquery/util/AQUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="0" selection-start="2970" selection-end="2970" vertical-scroll-proportion="0.03529412" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="50" selection-start="4438" selection-end="4438" vertical-scroll-proportion="3.390411" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/HomeTabActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="82" selection-start="793" selection-end="793" vertical-scroll-proportion="-0.80987203" />
@@ -742,13 +767,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/model/TimelineModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/geek_zoo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -757,44 +775,6 @@
     <entry file="file://$PROJECT_DIR$/res/layout/team_introduction.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="48" selection-start="846" selection-end="861" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="17" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/activity/TeamIntroduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="16" selection-start="3893" selection-end="3893" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/webview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="94" selection-start="332" selection-end="332" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
@@ -811,10 +791,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/ProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="63" selection-start="8936" selection-end="8936" vertical-scroll-proportion="0.37528604">
+        <state line="248" column="63" selection-start="8936" selection-end="8936" vertical-scroll-proportion="8.512586">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/webview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="94" selection-start="332" selection-end="332" vertical-scroll-proportion="0.3292683">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="39" selection-start="3168" selection-end="3168" vertical-scroll-proportion="1.5789474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/activity/TeamIntroduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.41647598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="17" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.033557046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/model/TimelineModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="16" selection-start="3893" selection-end="3893" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="63" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/view/TouchableImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="13" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/view/DarkLinearLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="62" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.6108491">
+          <folding />
         </state>
       </provider>
     </entry>

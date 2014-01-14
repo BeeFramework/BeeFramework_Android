@@ -92,6 +92,27 @@ Copyright 2013 ~ 2014, [Geek-Zoo Studio, Inc.](http://www.geek-zoo.com) and [INS
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 	IN THE SOFTWARE.
+	
+
+
+##Change log	
+###0.2
+	1.替换Example代码，将新浪微薄接口，替换成Dribbble接口
+
+	2.添加切换主题DEMO
+	从服务器上下载theme.zip,解压缩到指定目录，修改Android图片资源加载方式，从相同的R文件，根据主题设置的不同，加载不同资源。
+	
+	3.通过注解的方式，关联UI控件与变量
+	
+	4.优化图片加载方式
+
+	5.优化协议Log列表的展现方式，自动Format成JSON缩进格式
+
+
+
+
+
+
 
 
 
