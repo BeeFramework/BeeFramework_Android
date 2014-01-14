@@ -27,7 +27,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" name="Default" comment="" />
+    <list default="true" id="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="BeeFrameworkExample.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374823098689" ignored="false" />
@@ -77,7 +79,7 @@
     <file path="/AQUtility.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374831688387" ignored="false" />
     <file path="/TimelineModel.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1374859075524" ignored="false" />
     <file path="/TeamIntroduction.java" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375089761678" ignored="false" />
-    <file path="/Dummy.txt" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1358136464612" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1389691608798" ignored="false" />
     <file path="/team_introduction.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375089386936" ignored="false" />
     <file path="/home_tab.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375086039336" ignored="false" />
     <file path="/webview.xml" changelist="9fe002cf-4a74-483a-afaa-79ba4baa6d6e" time="1375092991720" ignored="false" />
@@ -176,7 +178,7 @@
       <file leaf-file-name="BeeFrameworkApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="50" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.31350115">
+            <state line="154" column="50" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.034324944">
               <folding />
             </state>
           </provider>
@@ -256,7 +258,7 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../tools/keystore/geek-zoo.keystore" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../BeeAndroid/tools/keystore/geek-zoo.keystore" />
     <option name="KEY_ALIAS" value="geek-zoo" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
@@ -291,8 +293,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="220" />
+    <option name="x" value="2" />
+    <option name="y" value="47" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -322,6 +324,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -445,18 +448,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.16503906" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="ExportedApkPath" value="$PROJECT_DIR$/BeeFrameworkExample.apk" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="ExportedModule" value="BeeFrameworkExample" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/universal-image-loader-1.8.6-with-sources.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BeeAndroid/tools/keystore/geek-zoo.keystore" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -469,7 +471,7 @@
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.7027348" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="4d0057a5b2769037" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -508,19 +510,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -547,6 +536,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -654,8 +656,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="220" width="1260" height="760" extended-state="0" />
-    <editor active="true" />
+    <frame x="2" y="47" width="1260" height="760" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -663,7 +665,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2661654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2661654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -677,7 +679,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2809524" sideWeight="0.73383456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2809524" sideWeight="0.73383456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15403624" sideWeight="0.7328125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -786,18 +788,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/ProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="63" selection-start="8936" selection-end="8936" vertical-scroll-proportion="8.512586">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="248" column="63" selection-start="8936" selection-end="8936" vertical-scroll-proportion="8.512586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/webview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="94" selection-start="332" selection-end="332" vertical-scroll-proportion="0.3292683">
-          <folding />
-        </state>
+        <state line="9" column="94" selection-start="332" selection-end="332" vertical-scroll-proportion="0.3292683" />
       </provider>
       <provider editor-type-id="android-designer">
         <state />
@@ -805,23 +801,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/activity/WebViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="39" selection-start="3168" selection-end="3168" vertical-scroll-proportion="1.5789474">
-          <folding />
-        </state>
+        <state line="91" column="39" selection-start="3168" selection-end="3168" vertical-scroll-proportion="1.5789474" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/TeamIntroduction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.41647598">
-          <folding />
-        </state>
+        <state line="46" column="0" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.41647598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/activity/TimelineActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="17" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.033557046">
-          <folding />
-        </state>
+        <state line="171" column="17" selection-start="5764" selection-end="5764" vertical-scroll-proportion="0.033557046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/model/TimelineModel.java">
@@ -868,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BeeFramework/BeeFrameworkApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="50" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.31350115">
+        <state line="154" column="50" selection-start="6121" selection-end="6121" vertical-scroll-proportion="0.034324944">
           <folding />
         </state>
       </provider>
