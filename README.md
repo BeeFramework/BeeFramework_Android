@@ -107,6 +107,7 @@ Copyright 2013 ~ 2014, [Geek-Zoo Studio, Inc.](http://www.geek-zoo.com) and [INS
 	4.优化图片加载方式
 
 	5.优化协议Log列表的展现方式，自动Format成JSON缩进格式
+	
 
 
 
