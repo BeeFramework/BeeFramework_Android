@@ -1,4 +1,4 @@
-#BeeFramework 0.1
+#BeeFramework 0.2
 
 ##BeeFramework是什么
 BeeFramework Android版主要为Android初级开发人员提供一个基于MVC开发模式的APP DEMO,并提供一套APP内调试工具,包括
