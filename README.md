@@ -10,6 +10,13 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 
 
 ##快速开始
+###什么是MVC
+	
+	MVC是一种软件架构模式，把系统分为模型(Model),视图(View)和控制器(Controller).
+	MVC通过简化软件的复杂度，是程序更加直观，易于复用，扩张和维护。
+	在Android的App开发中，通常控制器是Activity,控制界面跳转，处理请求，刷新界面。
+	View对应Android系统的各种layout，实现界面绘制。
+	Model则用来发起HTTP请求，存储本地数据。
 ###开启调试模式
 需要Application继承自BeeFrameworkApp,在MainActivity按返回键时，调用
 
@@ -17,16 +24,67 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 
 ###网络数据请求
 
-	BeeCallback<JSONObject> cb = new BeeCallback<JSONObject>()
+
+网络库使用Android Query,并做进一步封装。
+
+(1) 创建一个datamodel类。
+
+	public class ShotModel extends BaseModel
 	{
-		public void callback(String url, JSONObject jo, AjaxStatus status)
-	         {
-	         	//TODO
-	         }
-	};	  
-	cb.url(url).type(JSONObject.class).method(Constants.METHOD_GET);
-	com.BeeFramework.model.BeeQuery aq = new BeeQuery(context);
-	aq.ajax(cb);
+		public ShotModel(Context context)
+    	{
+        	super(context);
+	    }
+	}
+
+(2)在Activity中新建model。
+	
+	shotModel = new ShotModel(this);
+    shotModel.addResponseListener(this);
+    
+(3)在datamodel中创建网络请求方法
+
+	 public void getData()
+    {
+
+
+        String url = ApiInterface.SHOT_LIST;
+        
+        BeeCallback<JSONObject> cb = new BeeCallback<JSONObject>(){
+
+            @Override
+            public void callback(String url, JSONObject jo, AjaxStatus status)
+            {
+                ShotModel.this.OnMessageResponse(url, jo, status);
+            }
+
+        };
+
+        cb.url(url).type(JSONObject.class).method(Constants.METHOD_GET);
+        aq.ajax(cb);
+	 }
+   
+(4)在Activity中实现BusinessResponse方法，网络请求成功后，会调用该方法，在此处理界面刷新等操作
+
+	public void OnMessageResponse(String url, JSONObject jo, AjaxStatus status)
+            throws JSONException 
+    {
+    }
+	   
+	   
+###关于数据存储
+
+	任何一个实现继承自Model的对象都可以实现存储。
+	例如：
+	public class COMMENT extends Model 
+	{
+	}
+	
+	存储: COMMENT comment = new COMMENT();
+		  comment.save()
+	读取：
+	 COMMENT comment = new Select().from(COMMENT.class).where("COMMENT_id = ?", 1).orderBy("COMMENT_id ASC").executeSingle();
+	   
 ###开启Crash Log
 
 	String path = Environment.getExternalStorageDirectory().getAbsolutePath() + AppConst.LOG_DIR_PATH;
