@@ -62,7 +62,7 @@ public class HomeTabActivity extends TabActivity {
             BeeFrameworkApp.getInstance().showBug(this);
         }
         
-        width = getWindowManager().getDefaultDisplay().getWidth()/5;
+        width = getWindowManager().getDefaultDisplay().getWidth()/3;
         
 		image = (ImageView) findViewById(R.id.home_tab_image);
 		LayoutParams params = (LayoutParams) image.getLayoutParams();
@@ -71,24 +71,16 @@ public class HomeTabActivity extends TabActivity {
         
         tabHost = getTabHost();
         TabHost.TabSpec spec_tab1 = tabHost.newTabSpec("spec_tab1").setIndicator("spec_tab1")
-                .setContent(new Intent(HomeTabActivity.this,HighlightButtonActivity.class));
+                .setContent(new Intent(HomeTabActivity.this,ShotListActivity.class));
         tabHost.addTab(spec_tab1);
 
         TabHost.TabSpec spec_tab2 = tabHost.newTabSpec("spec_tab2").setIndicator("spec_tab2")
-                .setContent(new Intent(HomeTabActivity.this,TrendActivity.class));
-        tabHost.addTab(spec_tab2);
-
-        TabHost.TabSpec spec_tab3 = tabHost.newTabSpec("spec_tab3").setIndicator("spec_tab3")
-                .setContent(new Intent(HomeTabActivity.this,TimelineActivity.class));
-        tabHost.addTab(spec_tab3);
-
-        TabHost.TabSpec spec_tab4 = tabHost.newTabSpec("spec_tab4").setIndicator("spec_tab4")
                 .setContent(new Intent(HomeTabActivity.this,GalleryImageActivity.class));
-        tabHost.addTab(spec_tab4);
+        tabHost.addTab(spec_tab2);
         
-        TabHost.TabSpec spec_tab5 = tabHost.newTabSpec("spec_tab5").setIndicator("spec_tab5")
+        TabHost.TabSpec spec_tab3 = tabHost.newTabSpec("spec_tab3").setIndicator("spec_tab3")
                 .setContent(new Intent(HomeTabActivity.this,TeamIntroduction.class));
-        tabHost.addTab(spec_tab5);
+        tabHost.addTab(spec_tab3);
 
         RadioGroup group = (RadioGroup) this.findViewById(R.id.tab_group);
         group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -122,24 +114,6 @@ public class HomeTabActivity extends TabActivity {
     					mTranslateAnimation.setFillAfter(true);
     					image.startAnimation(mTranslateAnimation);
     					start = width*2;
-                        break;
-                    case R.id.tab_four:
-                        tabHost.setCurrentTabByTag("spec_tab4");
-                        mTranslateAnimation = new TranslateAnimation(start, width*3,0, 0);
-    					mTranslateAnimation.setDuration(100);
-    					mTranslateAnimation.setFillEnabled(true);
-    					mTranslateAnimation.setFillAfter(true);
-    					image.startAnimation(mTranslateAnimation);
-    					start = width*3;
-                        break;
-                    case R.id.tab_five:
-                        tabHost.setCurrentTabByTag("spec_tab5");
-                        mTranslateAnimation = new TranslateAnimation(start, width*4,0, 0);
-    					mTranslateAnimation.setDuration(100);
-    					mTranslateAnimation.setFillEnabled(true);
-    					mTranslateAnimation.setFillAfter(true);
-    					image.startAnimation(mTranslateAnimation);
-    					start = width*4;
                         break;
                 }
             }

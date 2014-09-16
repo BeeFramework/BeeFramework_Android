@@ -32,10 +32,6 @@
         android:label="@string/app_name"
         android:theme="@style/customTheme" >
         <activity
-            android:name="com.example.activity.TimelineActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
             android:name="com.BeeFramework.activity.DebugTabActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
@@ -74,27 +70,21 @@
             android:name="com.BeeFramework.activity.WebViewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.activity.FriendsTimelineActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.example.activity.GalleryImageActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.activity.HighlightButtonActivity"
+            android:name="com.example.activity.ShotListActivity"
             android:screenOrientation="portrait" >
+
         </activity>
         <activity
-            android:name="com.example.activity.ShotListActivity"
+            android:name="com.example.activity.HomeTabActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.activity.HomeTabActivity"
-            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.example.activity.CommentListActivity"
@@ -117,22 +107,23 @@
         </service>
 
         <activity
-            android:name="com.example.activity.ProfileActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.example.activity.ShotActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.example.activity.FollowersActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.example.activity.FollowingActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.activity.LikeShotListActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.example.activity.ThemeDownloadActivity"
                   android:screenOrientation="portrait" />
+        <activity
+                android:name="com.example.activity.ProfileActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name="com.example.activity.FollowersActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name="com.example.activity.FollowingActivity"
+                android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

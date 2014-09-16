@@ -42,7 +42,7 @@
                     android:button="@null"
                     android:checked="true"
                     android:gravity="center"
-                    android:text="高亮按钮"
+                    android:text="时间线"
                     android:textColor="#000000"
                     android:textSize="10dp" />
 
@@ -54,36 +54,12 @@
                     android:background="@drawable/tab_select"
                     android:button="@null"
                     android:gravity="center"
-                    android:text="流行话题"
-                    android:textColor="#000000"
-                    android:textSize="10dp" />
-
-                <RadioButton
-                    android:id="@+id/tab_three"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/tab_select"
-                    android:button="@null"
-                    android:gravity="center"
-                    android:text="流行微博"
-                    android:textColor="#000000"
-                    android:textSize="10dp" />
-
-                <RadioButton
-                    android:id="@+id/tab_four"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/tab_select"
-                    android:button="@null"
-                    android:gravity="center"
                     android:text="图片浏览"
                     android:textColor="#000000"
                     android:textSize="10dp" />
 
                 <RadioButton
-                    android:id="@+id/tab_five"
+                    android:id="@+id/tab_three"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_weight="1"
