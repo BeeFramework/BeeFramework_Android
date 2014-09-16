@@ -21,6 +21,9 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 需要Application继承自BeeFrameworkApp,在MainActivity按返回键时，调用
 
 	BeeFrameworkApp.getInstance().showBug(this);
+	
+
+![image](https://raw.githubusercontent.com/BeeFramework/BeeFramework_Android/master/example.png)
 
 ###网络数据请求
 
