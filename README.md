@@ -1,6 +1,6 @@
-#BeeFramework 0.1
+# BeeFramework 0.1
 
-##BeeFramework是什么
+## BeeFramework是什么
 BeeFramework Android版主要为Android初级开发人员提供一个基于MVC开发模式的APP DEMO,并提供一套APP内调试工具,包括
 
 *	查看网络数据请求历史
@@ -9,15 +9,15 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 *	查看APP性能(内存占用，CPU占用等)
 
 
-##快速开始
-###什么是MVC
+## 快速开始
+### 什么是MVC
 	
 	MVC是一种软件架构模式，把系统分为模型(Model),视图(View)和控制器(Controller).
 	MVC通过简化软件的复杂度，是程序更加直观，易于复用，扩张和维护。
 	在Android的App开发中，通常控制器是Activity,控制界面跳转，处理请求，刷新界面。
 	View对应Android系统的各种layout，实现界面绘制。
 	Model则用来发起HTTP请求，存储本地数据。
-###开启调试模式
+### 开启调试模式
 需要Application继承自BeeFrameworkApp,在MainActivity按返回键时，调用
 
 	BeeFrameworkApp.getInstance().showBug(this);
@@ -25,7 +25,7 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 
 ![image](https://raw.githubusercontent.com/BeeFramework/BeeFramework_Android/master/example.png)
 
-###网络数据请求
+### 网络数据请求
 
 
 网络库使用Android Query,并做进一步封装。
@@ -75,7 +75,7 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
     }
 	   
 	   
-###关于数据存储
+### 关于数据存储
 
 	任何一个实现继承自Model的对象都可以实现存储。
 	例如：
@@ -88,7 +88,7 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 	读取：
 	 COMMENT comment = new Select().from(COMMENT.class).where("COMMENT_id = ?", 1).orderBy("COMMENT_id ASC").executeSingle();
 	   
-###开启Crash Log
+### 开启Crash Log
 
 	String path = Environment.getExternalStorageDirectory().getAbsolutePath() + AppConst.LOG_DIR_PATH;
 	File storePath = new File(path);
@@ -96,14 +96,14 @@ BeeFramework Android版主要为Android初级开发人员提供一个基于MVC�
 	Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
            path, null));
                 
-###模拟2G/3G网络
+### 模拟2G/3G网络
 
 	BeeQuery.setForceThrottleBandwidth(true);
 	BeeQuery.setMaxBandwidthPerSecond(1000);//限定1000Bytes/s                
 
 **[下载APK安装包，开始体验](https://play.google.com/store/apps/details?id=com.BeeFramework.example)**
 
-##作者
+## 作者
 
 **Howiezhang**
 
